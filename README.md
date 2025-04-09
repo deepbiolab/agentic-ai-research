@@ -86,8 +86,9 @@ This curated list of papers mainly focus on the field of agentic AI in Scientifi
 - [AI Agents That Matter: Trustworthy Agentic AI for Scientific Discovery](https://arxiv.org/pdf/2407.01502)  
   **Model**: AI Agents That Matter  
 - [CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments](https://arxiv.org/pdf/2404.18021)  
-  **Model**: CRISPR-GPT  
-
+  **Model**: CRISPR-GPT
+- [BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments](https://arxiv.org/pdf/2405.17631)
+  **Model**: BioDiscoveryAgent
 
 
 ### Challenges and Open Problems
