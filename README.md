@@ -1,4 +1,5 @@
-# agentic-ai-research
+# Agentic AI Research
+
 Exploring agentic AI systems: research, development, and insights.
 
 
