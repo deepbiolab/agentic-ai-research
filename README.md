@@ -2,8 +2,50 @@
 
 Exploring agentic AI systems: research, development, and insights.
 
+## Tutorials
 
-## Awesome Agentic AI Papers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+All tutorials are available in the `./tutorials` directory. This tutorials are designed to explain the main idea behind of [References](#references) papers.
+
+
+### Fundamental Components of Agentic Framework
+A series of tutorials demonstrating how to build an agentic AI framework from scratch:
+
+1. **[00-basic-llm-calls-and-agent](./tutorials/fundamental-agentic-framework/00-basic-llm-calls-and-agent.ipynb)**: Introduction to basic LLM API interactions and building a simple Agent class
+   - Setting up OpenAI client
+   - Understanding key parameters
+   - Building a flexible Agent class
+   - Example use cases with different agent roles
+
+2. **[01-manage-memory](./tutorials/fundamental-agentic-framework/01-manage-memory.ipynb)**: Implementation of short-term memory management for AI agents
+   - Simple memory implementation using lists
+   - Creating a robust Memory class
+   - Integration with Agent class
+
+3. **[02-function-calling](./tutorials/fundamental-agentic-framework/02-function-calling.ipynb)**: Adding function calling capabilities to agents
+   - Implementing tool calling functionality
+   - Memory management with tool calls
+   - Project management example with external data interactions
+
+4. **[03-react-prompt-technique](./tutorials/fundamental-agentic-framework/03-react-prompt-technique.ipynb)**: ReACT (Reasoning + Acting) prompting implementation
+   - Structured prompting for reasoning and action
+   - Interactive wellness agent example
+   - Step-by-step thought process demonstration
+
+5. **[04-react-agent-from-scratch](./tutorials/fundamental-agentic-framework/04-react-agent-from-scratch.ipynb)**: Complete ReACT agent implementation
+   - Memory layer implementation
+   - Tool layer with function calling
+   - ReACT loop implementation
+   - Combine Self-reflection into ReACT agent
+
+6. **[05-multi-agents-with-react](./tutorials/fundamental-agentic-framework/05-multi-agents-with-react.ipynb)**: Advanced implementation with multiple agents
+   - Peer agent communication
+   - Multi-agent task coordination
+   - Complex problem-solving with agent collaboration
+
+The tutorials demonstrate building increasingly sophisticated AI agents, from basic API calls to complex multi-agent systems with memory, function calling, and reasoning capabilities.
+
+
+## References
 
 This curated list of papers mainly focus on the field of agentic AI in Scientific Discovery. It includes papers that explore the use of AI in scientific research, as well as papers that propose new methods and frameworks for scientific discovery. The list is organized by topic, and includes papers from a variety of sources, including academic journals, conferences, and preprint servers. The list is intended to be a resource for researchers and practitioners interested in the field of agentic AI in Scientific Discovery.
 
@@ -14,7 +56,7 @@ This curated list of papers mainly focus on the field of agentic AI in Scientifi
 - [Challenges and Open Problems](#challenges-and-open-problems)
 
 
-## Highlights
+#### Highlights
 
 - [The AI Scientist: Towards fully automated open-ended scientific discovery](https://arxiv.org/pdf/2408.06292)  
   *Focus: Automating scientific discovery processes.*
@@ -37,7 +79,7 @@ This curated list of papers mainly focus on the field of agentic AI in Scientifi
 - [Agent Laboratory: Using llm agents as research assistants.](https://arxiv.org/pdf/2501.04227) 
     *Focus: Accepts human-provided research ideas and autonomously progresses through literature review, experimentation, and report writing.*
 
-## Implementation Tools
+#### Implementation Tools
 
 - [AutoGen: Enabling next-gen LLM applications via multiagent conversation framework](https://arxiv.org/pdf/2308.08155)  
   *Focus: Framework for building multi-agent LLM applications.*
@@ -52,7 +94,7 @@ This curated list of papers mainly focus on the field of agentic AI in Scientifi
 
 
 
-## Datasets and Benchmarks
+#### Datasets and Benchmarks
 
 - [ResearchArena: Benchmarking LLMs’ ability to collect and organize information as research agents](https://arxiv.org/pdf/2406.10291)  
   *Focus: Benchmarking LLMs for research organization tasks.*
@@ -67,7 +109,7 @@ This curated list of papers mainly focus on the field of agentic AI in Scientifi
 
 
 
-## Scientific Discovery Applications
+#### Scientific Discovery Applications
 
 - [LLaMP: Large Language Model Made Powerful for High-Fidelity Materials Knowledge Retrieval and Distillation](https://arxiv.org/pdf/2401.17244)  
   *Focus: High-fidelity materials knowledge retrieval with LLMs.*
@@ -86,7 +128,7 @@ This curated list of papers mainly focus on the field of agentic AI in Scientifi
 
 
 
-## Challenges and Open Problems
+#### Challenges and Open Problems
 
 - [SciLitLLM: How to Adapt LLMs for Scientific Literature Understanding](https://arxiv.org/pdf/2408.15545)  
   *Focus: Adapting LLMs for understanding scientific literature.*
