@@ -44,6 +44,12 @@ A series of tutorials demonstrating how to build an agentic AI framework from sc
 
 The tutorials demonstrate building increasingly sophisticated AI agents, from basic API calls to complex multi-agent systems with memory, function calling, and reasoning capabilities.
 
+### Agentic Workflows with LangGraph
+
+1. **[00-langchain-basics](./tutorials/agentic-workflows-with-langgraph/00-langchain-bascis.ipynb)**: Introduction to LangChain and its basic components
+   - Setting up LangChain
+   - Understanding key components
+   - Building a simple agent with LangChain
 
 ## References
 
