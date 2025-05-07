@@ -1,5 +1,7 @@
 # Agentic AI Research
 
+![](./assets/arch.svg)
+
 Exploring agentic AI systems: research, development, and insights.
 
 ## Tutorials
