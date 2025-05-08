@@ -181,3 +181,5 @@ cython_debug/
 
 **/memory.db
 **/memory.db*
+mlruns/
+mlartifacts/
